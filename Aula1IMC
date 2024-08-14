@@ -1,0 +1,13 @@
+package com.mycompany.imc;
+import java.util.Scanner;
+
+public class Imc {
+
+    public static void main(String[]args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Informe seu Nome");
+        String nome = sc.nextLine();
+        System.out.println("Informe sua Altura");
+        Float altura = sc.nextFloat();
+}
